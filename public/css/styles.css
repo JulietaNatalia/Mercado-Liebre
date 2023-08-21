@@ -288,10 +288,47 @@
     color: blue;
     font-size: 30px;
   }
+/*  LOGIN  */
+main .login {
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.404);
+}
 
+form input,
+select {
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.486);
+}
+
+form input[type="submit"] {
+  width: 20%;
+  background-color: #0044aa;
+  font-size: 15px;
+  color: white;
+  margin: auto;
+  transition: 0.3s ease-in-out all;
+}
+
+form input[type="submit"]:hover {
+  transform: scale(0.9);
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.493);
+}
   /* REGISTRO */
-  
   main .register {
     background-color: white;
     width: 40%;
